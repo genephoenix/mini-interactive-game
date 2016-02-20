@@ -10,3 +10,13 @@ body{
   background-color: black;
   border-radius: 4%;
 }
+
+#game-button{
+  position: absolute;
+  left: 42%;
+  top: 90%;
+}
+
+.canvas-div{
+  position: relative;
+}

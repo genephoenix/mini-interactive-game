@@ -4,6 +4,10 @@ $(document).ready(function(){
   var shape = canvas.getContext("2d");
 
   shape.fillStyle = "white";
-  shape.fillRect(10, 10, 50, 50);
+  shape.fillRect(10, 10, 40, 40);
+
+  $("#game-button").on("click", function(){
+    alert("Game start!");
+  })
 
 });

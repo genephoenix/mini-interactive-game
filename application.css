@@ -11,6 +11,16 @@ body{
   border-radius: 4%;
 }*/
 
+/*#game-button{
+  position: absolute;
+  left: 42%;
+  top: 90%;
+}
+
+.canvas-div{
+  position: relative;
+}*/
+
 #game-div{
   border: 2px solid red;
   border-radius: 4%;

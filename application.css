@@ -15,8 +15,8 @@ body{
   border: 2px solid red;
   border-radius: 4%;
   background-color: black;
-  height: 50%;
-  width: 40%;
+  height: 350px;
+  width: 500px;
   position: relative;
 }
 
@@ -29,6 +29,6 @@ body{
 
 .play-btn{
   position: absolute;
-  left: 40%;
+  left: 42%;
   top: 90%;
 }

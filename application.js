@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
-  var canvas = document.getElementById("canvas");
-  var shape = canvas.getContext("2d");
+  // var canvas = document.getElementById("canvas");
+  // var shape = canvas.getContext("2d");
 
-  shape.fillStyle = "white";
-  shape.fillRect(10, 10, 40, 40);
+  // shape.fillStyle = "white";
+  // shape.fillRect(10, 10, 40, 40);
 
-  $("#game-button").on("click", function(){
+  $(".play-btn").on("click", function(){
     alert("Game start!");
-  })
+  });
 
 });

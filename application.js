@@ -6,4 +6,8 @@ $(document).ready(function(){
   // shape.fillStyle = "white";
   // shape.fillRect(10, 10, 50, 50);
 
+  $(".play-btn").on("click", function(){
+    alert("Game start!");
+  });
+
 });

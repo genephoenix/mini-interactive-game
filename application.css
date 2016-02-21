@@ -10,3 +10,25 @@ body{
   background-color: black;
   border-radius: 4%;
 }*/
+
+#game-div{
+  border: 2px solid red;
+  border-radius: 4%;
+  background-color: black;
+  height: 50%;
+  width: 40%;
+  position: relative;
+}
+
+.playing-block{
+  background-color: white;
+  height: 10%;
+  width: 5%;
+  margin: 2%;
+}
+
+.play-btn{
+  position: absolute;
+  left: 40%;
+  top: 90%;
+}

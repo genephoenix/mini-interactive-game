@@ -10,4 +10,13 @@ $(document).ready(function(){
     alert("Game start!");
   });
 
+  $("#instructions-btn").on("click", function(){
+    $.ajax({
+      url: 'instructions.html',
+      method: 'GET',
+      success: function(instructions){
+        $("#instructions-btn").replaceWith(instructions);
+      }
+    });
+  });
 });

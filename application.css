@@ -28,6 +28,7 @@ body{
   height: 350px;
   width: 500px;
   position: relative;
+  margin-top: 2%;
 }
 
 .playing-block{

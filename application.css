@@ -5,13 +5,13 @@ body{
   align-items: center;
 }
 
-#canvas{
+/*#canvas{
   border: 2px solid red;
   background-color: black;
   border-radius: 4%;
-}
+}*/
 
-#game-button{
+/*#game-button{
   position: absolute;
   left: 42%;
   top: 90%;
@@ -19,4 +19,27 @@ body{
 
 .canvas-div{
   position: relative;
+}*/
+
+#game-div{
+  border: 2px solid red;
+  border-radius: 4%;
+  background-color: black;
+  height: 350px;
+  width: 500px;
+  position: relative;
+  margin-top: 2%;
+}
+
+.playing-block{
+  background-color: white;
+  height: 10%;
+  width: 5%;
+  margin: 2%;
+}
+
+.play-btn{
+  position: absolute;
+  left: 42%;
+  top: 90%;
 }

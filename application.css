@@ -43,3 +43,12 @@ body{
   left: 42%;
   top: 90%;
 }
+
+#instructions{
+  position: relative;
+}
+
+#instructions-btn{
+  position: absolute;
+  left: 12%;
+}
